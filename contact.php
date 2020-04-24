@@ -17,6 +17,7 @@ try
     foreach ($_POST as $key => $value) {
 
         if (isset($fields[$key])) {
+            
             $emailText .= "$fields[$key]: $value\n";
         }
     }
